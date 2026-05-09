@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.danzi.impersonator.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "ClientboundPlayerInfoUpdatePacketAccessor",
+    "ChunkMapAccessor",
+    "ChunkMapTrackedEntityAccessor",
+    "ServerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

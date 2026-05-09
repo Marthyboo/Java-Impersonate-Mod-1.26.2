@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "impersonator",
+  "version": "${version}",
+  "name": "Impersonator",
+  "description": "Lets players impersonate another Java account's skin and rendered nametag with /impersonate.",
+  "authors": [
+    "danzi"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.danzi.impersonator.ImpersonatorMod"
+    ]
+  },
+  "mixins": [
+    "impersonator.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
